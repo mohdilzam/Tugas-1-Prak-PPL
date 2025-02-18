@@ -15,6 +15,7 @@ function tambah(a, b) {
  * @returns {number}
  */
 function kurang(a, b) {
+    return a - b;
 }
 
 /**
