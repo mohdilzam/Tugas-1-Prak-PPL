@@ -130,3 +130,17 @@ function bulatkan(a) {
 }
 
 // Export hasil akhir
+module.exports = {
+    tambah,
+    kurang,
+    kali,
+    bagi,
+    pangkat,
+    faktorial,
+    isPrima,
+    modulus,
+    absolut,
+    maksimum,
+    minimum,
+    bulatkan
+};
