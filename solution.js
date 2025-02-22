@@ -37,11 +37,10 @@ function kali(a, b) {
  * @returns {number | string}
  */
 function bagi(a, b) {
-    function bagi(a, b) {
-        if (b === 0) {
-            return "Error";
-        }
-        return a / b;
+    if (b === 0) {
+        return "Error";
+    }
+    return a / b;
 }
 
 /**
@@ -51,7 +50,9 @@ function bagi(a, b) {
  * @returns {number}
  */
 function pangkat(a, b) {
+    return Math.pow(a, b);
 }
+
 
 /**
  * Mengembalikan faktorial dari sebuah angka.
