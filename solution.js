@@ -96,6 +96,7 @@ function modulus(a, b) {
  * @returns {number}
  */
 function absolut(a) {
+    return Math.abs(a);
 }
 
 
