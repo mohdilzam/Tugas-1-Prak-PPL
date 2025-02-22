@@ -117,6 +117,7 @@ function maksimum(a, b) {
  * @returns {number}
  */
 function minimum(a, b) {
+    return Math.min(a, b);
 }
 
 /**
