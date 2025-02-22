@@ -126,6 +126,7 @@ function minimum(a, b) {
  * @returns {number}
  */
 function bulatkan(a) {
+    return Math.round(a);
 }
 
 // Export hasil akhir
