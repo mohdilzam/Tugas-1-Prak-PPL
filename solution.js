@@ -107,6 +107,7 @@ function absolut(a) {
  * @returns {number}
  */
 function maksimum(a, b) {
+    return Math.max(a, b);
 }
 
 /**
