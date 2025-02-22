@@ -87,6 +87,7 @@ function isPrima(n) {
  * @returns {number}
  */
 function modulus(a, b) {
+    return a % b;
 }
 
 /**
