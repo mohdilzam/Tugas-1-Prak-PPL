@@ -24,6 +24,7 @@ function kurang(a, b) {
  * @returns {number}
  */
 function kali(a, b) {
+    return a * b;
 }
 
 /**
@@ -33,7 +34,11 @@ function kali(a, b) {
  * @returns {number | string}
  */
 function bagi(a, b) {
- 
+    function bagi(a, b) {
+        if (b === 0) {
+            return "Error";
+        }
+        return a / b;
 }
 
 /**
