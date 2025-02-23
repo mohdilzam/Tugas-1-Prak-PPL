@@ -10,3 +10,7 @@ const operations = {
     '2': { name: 'Pengurangan', func: math.kurang },
     '3': { name: 'Perkalian', func: math.kali },
     '4': { name: 'Pembagian', func: math.bagi },
+    '5': { name: 'Pangkat', func: math.pangkat },
+    '6': { name: 'Faktorial', func: math.faktorial, singleInput: true },
+    '7': { name: 'Cek Bilangan Prima', func: math.isPrima, singleInput: true },
+    '8': { name: 'Modulus', func: math.modulus },
