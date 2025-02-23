@@ -10,4 +10,3 @@ const operations = {
     '2': { name: 'Pengurangan', func: math.kurang },
     '3': { name: 'Perkalian', func: math.kali },
     '4': { name: 'Pembagian', func: math.bagi },
-    
