@@ -25,3 +25,13 @@ Object.keys(operations).forEach(key => console.log(`${key}. ${operations[key].na
 
 const getNumberInput = (prompt, callback) => {
     rl.question(prompt, num => {
+        const parsedNum = parseFloat(num);
+        if (!isNaN(parsedNum)) callback(parsedNum);
+        else {
+            console.log("Input tidak valid. Masukkan angka yang benar.");
+            getNumberInput(prompt, callback);
+        }
+    });
+};
+
+rl.question("Pilih operasi (1-12): ", choice => {
