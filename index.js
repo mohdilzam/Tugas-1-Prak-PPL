@@ -35,3 +35,8 @@ const getNumberInput = (prompt, callback) => {
 };
 
 rl.question("Pilih operasi (1-12): ", choice => {
+    const operation = operations[choice];
+    if (!operation) {
+        console.log("Pilihan tidak valid!");
+        return rl.close();
+    }
