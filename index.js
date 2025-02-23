@@ -19,3 +19,9 @@ const operations = {
     '11': { name: 'Minimum', func: math.minimum },
     '12': { name: 'Bulatkan', func: math.bulatkan, singleInput: true }
 };
+
+console.log("=== Kalkulator Sederhana ===");
+Object.keys(operations).forEach(key => console.log(`${key}. ${operations[key].name}`));
+
+const getNumberInput = (prompt, callback) => {
+    rl.question(prompt, num => {
