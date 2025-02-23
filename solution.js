@@ -38,7 +38,7 @@ function kali(a, b) {
  */
 function bagi(a, b) {
     if (b === 0) {
-        return "Error";
+        return "Pembagian oleh nol tidak diperbolehkan";
     }
     return a / b;
 }
