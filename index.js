@@ -14,3 +14,8 @@ const operations = {
     '6': { name: 'Faktorial', func: math.faktorial, singleInput: true },
     '7': { name: 'Cek Bilangan Prima', func: math.isPrima, singleInput: true },
     '8': { name: 'Modulus', func: math.modulus },
+    '9': { name: 'Nilai Absolut', func: math.absolut, singleInput: true },
+    '10': { name: 'Maksimum', func: math.maksimum },
+    '11': { name: 'Minimum', func: math.minimum },
+    '12': { name: 'Bulatkan', func: math.bulatkan, singleInput: true }
+};
