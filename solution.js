@@ -14,9 +14,7 @@ function tambah(a, b) {
  * @param {number} b 
  * @returns {number}
  */
-function subtract(a, b) {
-    console.log("Ini dari branch main");
-    console.log("Ini dari branch ilzam");
+function kurang(a, b) {
     return a - b;
 }
 
