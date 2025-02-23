@@ -45,4 +45,15 @@ rl.question("Pilih operasi (1-12): ", choice => {
 
     if (operation.singleInput) {
         getNumberInput("Masukkan angka: ", num => {
-            console.log("Hasil: ", operation.func(num));    
+            console.log("Hasil: ", operation.func(num));
+            rl.close();
+        });
+    } else {
+        getNumberInput("Masukkan angka pertama: ", a => {
+            getNumberInput("Masukkan angka kedua: ", b => {
+                console.log("Hasil: ", operation.func(a, b));
+                rl.close();
+            });
+        });
+    }
+});    
